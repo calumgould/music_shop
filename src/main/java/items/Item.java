@@ -1,38 +1,27 @@
-package instruments;
+package items;
 
-import behaviours.IPlay;
 import behaviours.ISell;
 
-public abstract class Instrument implements IPlay, ISell {
+public abstract class Item implements ISell {
 
-    private String material;
     private String type;
-    private String colour;
+    private String description;
     private double buyingPrice;
     private double sellingPrice;
 
-    public Instrument(String material, String type, String colour, double buyingPrice, double sellingPrice){
-        this.material = material;
+    public Item(String type, String description, double buyingPrice, double sellingPrice){
         this.type = type;
-        this.colour = colour;
+        this.description = description;
         this.buyingPrice = buyingPrice;
         this.sellingPrice = sellingPrice;
-    }
-
-    public String getMaterial() {
-        return this.material;
     }
 
     public String getType() {
         return this.type;
     }
 
-    public String getColour() {
-        return this.colour;
-    }
-
-    public String play() {
-        return this.getSound();
+    public String getDescription() {
+        return this.description;
     }
 
     public double getBuyingPrice() {
@@ -43,11 +32,13 @@ public abstract class Instrument implements IPlay, ISell {
         return this.sellingPrice;
     }
 
-    public void setSellingPrice(double newSellPrice){
+    public void setSellingPrice(double newSellPrice) {
         this.sellingPrice = newSellPrice;
     }
 
     public double calculateMarkup(){
         return this.sellingPrice - this.buyingPrice;
     }
+
+
 }

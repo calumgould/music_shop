@@ -9,5 +9,8 @@
         <module name="music_shop" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="music_shop" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

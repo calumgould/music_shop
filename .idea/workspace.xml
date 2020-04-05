@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74dea346-db69-4dfd-b0aa-e0b07a2d84e9" name="Default Changelist" comment="" />
+    <list default="true" id="74dea346-db69-4dfd-b0aa-e0b07a2d84e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClarinetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DrumStickTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DrumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Clarinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Clarinet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Drum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Drum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/DrumStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/DrumStick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/GuitarString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/GuitarString.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +33,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,13 +50,32 @@
     </option>
   </component>
   <component name="ProjectId" id="1a7uRT0qiOpzy9LvVuqNXWPxgqk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunManager">
+    <configuration name="All in music_shop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="music_shop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in music_shop" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,6 +103,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="654" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1586119615355">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="654" y="130" key="#com.intellij.ide.util.MemberChooser/0.23.1440.804@0.23.1440.804" timestamp="1586119615355" />
+    <state width="1090" height="191" key="GridCell.Tab.0.bottom" timestamp="1586119727009">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1090" height="191" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1586119727009" />
+    <state width="1090" height="191" key="GridCell.Tab.0.center" timestamp="1586119727008">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1090" height="191" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1586119727008" />
+    <state width="1090" height="191" key="GridCell.Tab.0.left" timestamp="1586119727006">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1090" height="191" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1586119727006" />
+    <state width="1090" height="191" key="GridCell.Tab.0.right" timestamp="1586119727008">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1090" height="191" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1586119727008" />
     <state x="579" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1586098989988">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
